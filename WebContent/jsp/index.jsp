@@ -34,9 +34,9 @@
 			<div class="input-group mb-3">
 				<select class="custom-select" id="inputGroupSelect03" name="location">
 				<option disabled="disabled" selected="selected">Choose city...</option>
-				 <c:forEach items="<%= DatabaseManager.getCityNameList() %>" var="listItem">
+<%-- 				 <c:forEach items="<%= DatabaseManager.getCityNameList() %>" var="listItem">
         			<option>${listItem}</option>
-   				 </c:forEach>
+   				 </c:forEach> --%>
 <!-- 				<select name="display" class="custom-select" id="inputGroupSelect03">
 					<option value="table">Table display</option>
 					<option value="average">Average data</option>
